@@ -1,0 +1,95 @@
+ #tittel {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 25%;
+    background-color: #445525;
+    text-shadow: 2px 2px rgba(250,250,250,0.7);
+    text-align: center;
+    background: url("tegneserie.png");
+    }
+    
+     
+   
+    
+    #innledning {
+        left: 10%;
+        bottom: 30%;
+        width: 100%;
+        height: 70%;
+    }
+    .tittel {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    height: 30%;
+    background: url("bilder/logo.png");
+    filter: opacity(0.9);
+    background-color: #ce7121;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 3px 3px rgba(250,250,250,0.7);
+    text-align: center;
+    font-size: 2.5em;
+    color: green;
+    overflow: hidden;
+    /*mix-blend-mode: difference;*/
+    }
+    #innhold {
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    width: 100%;
+    height: 60%;
+    background: whitesmoke;
+    overflow-y: scroll;
+    position: absolute;
+
+
+    }
+     
+    #innhold p {
+    padding-left:45px;
+    }
+     
+
+#bunn {
+
+text-align: center;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 5%;
+background: #68686E;
+}
+     
+    table {
+    border: solid 2px gray;
+    border-collapse: collapse;
+    }
+     
+    th,td {
+    padding-left:5px;
+    }
+    th {
+    background: paleturquoise;
+    }
+     
+    tr:nth-child(odd) {
+    background: rgba(100,10,10,0.2);
+    }
+     
+    td:nth-child(odd) {
+    background: rgba(49, 165, 165, 0.20);
+    }
+
+    
+ 
+     
+
+
